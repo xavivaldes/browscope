@@ -3,7 +3,7 @@ exports.browscope = function browscope(proxyUrl) {
     this.jar = this.request.jar();
 
     this.normalizeUrl = function (url) {
-        if (proxyUrl.indexOf('http') == -1) return 'http://' + url;
+        if (url && url.indexOf('http') == -1) return 'http://' + url;
         return url;
     };
 

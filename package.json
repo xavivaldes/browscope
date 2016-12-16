@@ -1,0 +1,26 @@
+{
+  "name": "browscope",
+  "version": "1.0.0",
+  "description": "A request wrapper to persist scope during the browse flow.",
+  "main": "browscope.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xavivaldes/browscope.git"
+  },
+  "keywords": [
+    "browser",
+    "request",
+    "scope",
+    "cookies",
+    "headers"
+  ],
+  "author": "Xavi Valdes <xavivaldes@gmail.com> (http://xavivaldes.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xavivaldes/browscope/issues"
+  },
+  "homepage": "https://github.com/xavivaldes/browscope#readme"
+}

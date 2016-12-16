@@ -1,6 +1,6 @@
 {
   "name": "browscope",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A request wrapper to persist scope during the browse flow.",
   "main": "browscope.js",
   "scripts": {

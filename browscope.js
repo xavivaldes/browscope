@@ -1,4 +1,4 @@
-browscope = function browscope(proxyUrl) {
+exports.browscope = function browscope(proxyUrl) {
     this.request = require('request');
     this.jar = this.request.jar();
 

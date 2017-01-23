@@ -22,5 +22,7 @@
   "bugs": {
     "url": "https://github.com/xavivaldes/browscope/issues"
   },
-  "homepage": "https://github.com/xavivaldes/browscope#readme"
+  "homepage": "https://github.com/xavivaldes/browscope#readme",
+  "dependencies":{
+  "request":"*"}
 }

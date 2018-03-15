@@ -36,21 +36,21 @@ exports.browscope = function browscope(proxyUrl) {
     };
 
     this.post = function (url, formData, callback) {
-        console.log('POST: ' + url);
+        //console.log('POST: ' + url);
         this.request.post(this.createParams(url, formData), function (err, httpResponse, body) {
             callback(body, httpResponse, err);
         });
     };
 
     this.postJson = function (url, jsonData, callback) {
-        console.log('POST JSON: ' + url);
+        //console.log('POST JSON: ' + url);
         this.request.post(this.createParams(url, null, jsonData), function (err, httpResponse, body) {
             callback(body, httpResponse, err);
         });
     };
 
     this.get = function (url, callback) {
-        console.log('GET: ' + url);
+        //console.log('GET: ' + url);
         this.request.get(this.createParams(url), function (err, httpResponse, body) {
             callback(body, httpResponse);
         });
